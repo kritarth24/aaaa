@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+</head>
+<body>
+    <h1>Tip Calculator</h1>
+    <script>
+     function tipcalculator(bills)
+     {
+         if(bills<50)
+         {
+            var tip=(20*bills)/100;
+            return tip;
+         }
+         else if (bills>50 && bills <200)
+         {
+            var tip=(20*bills)/100;
+            return tip;
+         }
+         else
+         {
+            var tip=(bills*10)/100;
+            return tip;
+         }
+        }
+     console.log(tipcalculator(100));
+
+    </script>
+</body>
+</html>
